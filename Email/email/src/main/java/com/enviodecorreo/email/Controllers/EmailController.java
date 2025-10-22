@@ -15,11 +15,18 @@ import com.enviodecorreo.email.services.EmailService;
 public class EmailController {
 
     @Autowired
-    private EmailService emailService;
+    public EmailService emailService;
+    //ERA PRIVATE SE PONE PUBLIC COMO EN EL VIDEO
+
 
     @PostMapping("/send")
     public ResponseEntity<String> send(@RequestBody Email email) {
-        emailService.sendEmail(email);
-        return ResponseEntity.ok("Correo enviado correctamente");
+        try{
+            emailService.sendEmail(email);
+            return ResponseEntity.ok("Correo enviado correctamente");
+        }
+        catch (Exception e){
+            return ResponseEntity.status(500).body("error al enviar el correo: "+ e.getMessage());
+        }
     }
 }
