@@ -6,6 +6,7 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
 import com.enviodecorreo.email.Entity.Email;
+import com.enviodecorreo.email.repository.EmailRepository;
 
 import jakarta.mail.internet.MimeMessage;
 
@@ -14,6 +15,9 @@ public class EmailService {
 
     @Autowired
     private JavaMailSender javaMailSender;
+
+    @Autowired
+    public EmailRepository emailRepository; 
 
     public void sendEmail(Email email) {
         try {
@@ -26,6 +30,9 @@ public class EmailService {
             helper.setText(email.getText(), true);
 
             javaMailSender.send(mimeMessage);
+
+            emailRepository.save(email);
+
         } catch (Exception e) {
             throw new RuntimeException("Error al enviar el correo: " + e.getMessage(), e);
         }

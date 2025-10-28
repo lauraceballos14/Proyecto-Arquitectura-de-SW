@@ -1,6 +1,7 @@
 package com.enviodecorreo.email.Entity;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
@@ -50,13 +51,19 @@ public class Email implements Serializable{
         if (getClass() != obj.getClass())
             return false;
         Email other = (Email) obj;
+        return Objects.equals(id, other.id);
+        
+        // Esto de abajo es lo que teniamos, pero lo cambie a lo que tenia el profesor
+        /*
         if (id == null) {
             if (other.id != null)
                 return false;
         } else if (!id.equals(other.id))
             return false;
         return true;
+        */
     }
+
     @Column(name="asunto")
     private String subject;
     @Column(name="mensaje")
