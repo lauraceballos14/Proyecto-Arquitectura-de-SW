@@ -1,0 +1,4 @@
+/home/daniela/Escritorio/Arqui/Proyecto-Arquitectura-de-SW/Paquetes/consumidor/src/main/java/com/pago/consumidor/ConsumidorApplication.java
+/home/daniela/Escritorio/Arqui/Proyecto-Arquitectura-de-SW/Paquetes/consumidor/src/main/java/com/pago/consumidor/config/RabbitConfig.java
+/home/daniela/Escritorio/Arqui/Proyecto-Arquitectura-de-SW/Paquetes/consumidor/src/main/java/com/pago/consumidor/controller/EstadoController.java
+/home/daniela/Escritorio/Arqui/Proyecto-Arquitectura-de-SW/Paquetes/consumidor/src/main/java/com/pago/consumidor/listener/EstadoPaqueteListener.java
