@@ -2,6 +2,7 @@ package com.enviodecorreo.email.Controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +19,10 @@ public class EmailController {
     public EmailService emailService;
     //ERA PRIVATE SE PONE PUBLIC COMO EN EL VIDEO
 
+    @GetMapping("/ping")
+    public ResponseEntity<String> ping() {
+        return ResponseEntity.ok("OK");
+    }
 
     @PostMapping("/send")
     public ResponseEntity<String> send(@RequestBody Email email) {

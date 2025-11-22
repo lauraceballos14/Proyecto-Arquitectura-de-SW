@@ -9,3 +9,5 @@ import com.enviodecorreo.email.Entity.Email;
 public interface EmailRepository extends JpaRepository <Email, Integer> {
     
 }
+//LO DE ARRIBA ES EL CODIGO ANTERIOR QUE FUE ELIMINAD
+

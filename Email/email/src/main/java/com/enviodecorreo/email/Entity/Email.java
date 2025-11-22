@@ -31,10 +31,13 @@ public class Email implements Serializable{
     @Column(name="id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
     @Column(name="origen")
     private String from;
+
     @Column(name="destino") 
     private String to;
+
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -66,6 +69,7 @@ public class Email implements Serializable{
 
     @Column(name="asunto")
     private String subject;
+    
     @Column(name="mensaje")
     private String text;
 
