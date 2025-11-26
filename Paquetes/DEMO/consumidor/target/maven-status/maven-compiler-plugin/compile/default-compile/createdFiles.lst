@@ -1,0 +1,15 @@
+com\paquetes\consumidor\service\EmailService.class
+com\paquetes\consumidor\entity\PaqueteComprado.class
+com\paquetes\consumidor\service\EmailService$1.class
+com\paquetes\consumidor\dto\PagoEvent.class
+com\paquetes\consumidor\dto\DestinoDetalle.class
+com\paquetes\consumidor\ConsumidorApplication.class
+com\paquetes\consumidor\repository\NotificacionRepository.class
+com\paquetes\consumidor\entity\Notificacion.class
+com\paquetes\consumidor\config\RabbitConfig.class
+com\paquetes\consumidor\entity\PaqueteComprado$PaqueteCompradoBuilder.class
+com\paquetes\consumidor\controller\NotificacionController.class
+com\paquetes\consumidor\entity\Notificacion$NotificacionBuilder.class
+com\paquetes\consumidor\listener\PagoListener.class
+com\paquetes\consumidor\dto\PaqueteDetalle.class
+com\paquetes\consumidor\repository\PaqueteCompradoRepository.class

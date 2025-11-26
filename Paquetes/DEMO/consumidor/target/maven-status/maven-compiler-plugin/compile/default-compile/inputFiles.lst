@@ -1,0 +1,12 @@
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\config\RabbitConfig.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\ConsumidorApplication.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\controller\NotificacionController.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\dto\DestinoDetalle.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\dto\PagoEvent.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\dto\PaqueteDetalle.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\entity\Notificacion.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\entity\PaqueteComprado.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\listener\PagoListener.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\repository\NotificacionRepository.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\repository\PaqueteCompradoRepository.java
+C:\Users\sofia\Javeriana\EmailSeguro\Paquetes\DEMO\consumidor\src\main\java\com\paquetes\consumidor\service\EmailService.java
