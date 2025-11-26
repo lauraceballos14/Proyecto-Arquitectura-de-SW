@@ -1,4 +1,0 @@
-com/pago/consumidor/ConsumidorApplication.class
-com/pago/consumidor/listener/EstadoPaqueteListener.class
-com/pago/consumidor/controller/EstadoController.class
-com/pago/consumidor/config/RabbitConfig.class
