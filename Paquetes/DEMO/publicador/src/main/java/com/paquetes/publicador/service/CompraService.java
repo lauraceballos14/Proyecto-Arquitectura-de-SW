@@ -118,7 +118,7 @@ public class CompraService {
         }
     }
 
-    private PaqueteDetalle mapearPaquete(PaqueteTuristico paquete) {
+    public PaqueteDetalle mapearPaquete(PaqueteTuristico paquete) {
         return PaqueteDetalle.builder()
                 .id(paquete.getId())
                 .nombre(paquete.getNombre())

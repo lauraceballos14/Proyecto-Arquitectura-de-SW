@@ -31,4 +31,8 @@ public class NotificacionController {
     public List<PaqueteComprado> getPaquetesComprados() {
         return paqueteCompradoRepository.findAll();
     }
+    @GetMapping("/historial")
+    public List<Notificacion> getHistorial() {
+        return notificacionRepository.findAll();
+       }
 }
